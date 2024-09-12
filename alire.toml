@@ -2,11 +2,11 @@ name = "esp32s3_blinky"
 description = "Espressif esp32s3_blinky"
 version = "0.1.0-dev"
 
-authors = ["Joe Beazelman"]
-maintainers = ["Joe Beazelman <joebeazelman@gmail.com>"]
-maintainers-logins = ["joebeazelman"]
+authors = ["Ron Tesler", "Vadim Godunko", "David Howells"]
+maintainers = ["joebeazelman@github.com", "vgodunko@gmail.com", "rowsail@github.com"]
+maintainers-logins = ["joebeazelman", "rowsail"]
+
 licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
-website = ""
 tags = ["esp32s3", "xtensa", "blinky"]
 
 executables = ["esp32s3_blinky"]

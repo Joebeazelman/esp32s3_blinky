@@ -20,7 +20,7 @@ project Esp32s3_Blinky is
    end Binder;
 
    package Linker is
-      for Switches ("Ada") use ESP32S3_HAL.Linker.Options;
+      for Switches ("Ada") use ESP32S3_HAL.Linker.Linker_Switches;
    end Linker;
 
    package Install is
